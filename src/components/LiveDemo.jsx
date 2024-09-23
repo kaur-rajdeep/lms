@@ -35,7 +35,7 @@ export const LiveDemo = () => {
     return (
       <Box component="form" onSubmit={handleSubmit} sx={{pt:6, mt:'2%', pb:6, pl:6, pr:6, backgroundColor:'#e6e6e6', borderRadius:'50px',
         boxShadow: '-10px 10px 2px #f5f5f5', width:{md:'70%', xs:'100%'}}}>
-        <Typography variant="h6" align="left">Experience the program for <span style={{color:'#DA3D33'}}>Free!</span></Typography>
+        <Typography variant="h6" align="left" sx={{fontFamily:'Roboto', color:'#525252'}}>Experience the program for <span style={{color:'#DA3D33'}}>Free!</span></Typography>
         <TextField
           label="Name"
           fullWidth

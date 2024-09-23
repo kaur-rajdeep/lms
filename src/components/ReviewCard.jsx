@@ -45,7 +45,7 @@ const Carousel = () => {
       </Button>
 
       {/* Review Card */}
-      <Card sx={{ minWidth: 300, maxWidth: 400, padding: 2, margin: 2 }}>
+      <Card sx={{ minWidth: 300, maxWidth: 400, padding: 2, margin: 2, fontFamily:'Roboto' }}>
         <CardContent>
           <Box sx={{ display: "flex", alignItems: "center", marginBottom: 2 }}>
             <Avatar

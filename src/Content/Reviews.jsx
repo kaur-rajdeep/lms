@@ -72,7 +72,7 @@ export const Reviews = () => {
           margin: "5%",
         }}
       >
-        <Typography variant="h3" sx={{ fontWeight: 600, lineHeight: "70px", fontFamily: "Roboto" }}>
+        <Typography variant="h3" sx={{fontSize:{xs:'32px', sm:'68px', md:'48px'}, fontWeight: 600, lineHeight:1.4, fontFamily: "Oswald" }}>
           REVIEWS OF CERTIFIED PROFESSIONALS
           <Box sx={{ display: "flex", mt: "2%" }}>
             <Button onClick={handlePrev} sx={{ borderRadius: "100%" }}>

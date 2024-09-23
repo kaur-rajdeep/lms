@@ -37,7 +37,7 @@ export default function StickyFooter() {
               : theme.palette.grey[800],
         }}
       >
-        <Container maxWidth="sm" sx={{padding:'15px'}}>
+        <Container maxWidth="sm" sx={{padding:'5px'}}>
           <Typography variant="body1">
             <AutoAwesomeIcon sx={{color:'#DA3D33', marginBottom:'-10px', marginRight:'12px', width:'50px', height:'35px'}}/>
             Master the art of security auditing with Sectheta 

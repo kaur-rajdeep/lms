@@ -5,6 +5,12 @@ import { LiveDemo } from "../components/LiveDemo";
 import { Highlight } from "./Highlight";
 import { Reviews } from "./Reviews";
 import { Info } from "./Info";
+import { CourseDetails } from "./CourseDetails";
+import { EnrollToday } from "./EnrollToday";
+import { Why } from "./Why";
+import { CareerPath } from "./CareerPath";
+import { WhySec } from "./WhySec";
+import { PanaceaLegacy } from "./PanaceaLegacy";
 
 function Home() {
   return (
@@ -41,10 +47,16 @@ function Home() {
         </Box>
       </Box>
       <Box sx={{mt:'5%'}}>
-      <Highlight/>
+      <CourseDetails/>
       </Box>
+      <EnrollToday/>
+      <Why/>
+      <CareerPath/>
+      <WhySec/>
+      <PanaceaLegacy/>
       <Reviews/>
       <Info />
+
     </div>
   );
 }

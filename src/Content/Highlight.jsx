@@ -15,10 +15,10 @@ export const Highlight = () => {
         mx: 'auto',                
       }}
     />
-    <Box sx={{display:'flex', flexDirection:{xs:'column', md:'row'}, mx:'auto', width:'90%'}}>
+    <Box sx={{display:'flex', flexDirection:{xs:'column', md:'row'}, mx:'auto', width:'90%', fontFamily:'Roboto'}}>
     <Box sx={{display:'flex', flexDirection:{xs:'column', md:'row'}, placeItems:'center', mx:'auto', p:2}}>
       <SchoolIcon sx={{width:"80px", height:"80px", borderRadius:'100%', backgroundColor:'#e6e6e6', padding:{xs:'6%', md:'5%'}, mx:'1%'}}/>
-      <Typography variant='body1' sx={{mx:{xs:'8%', md:'1%'}, padding:'2%'}}>Final Year Tech Students, Fresh Graduates & Early Career Professionals</Typography>
+      <Typography variant='body1' sx={{mx:{xs:'8%', md:'1%'}, padding:'2%', fontSize:'18px'}}>Final Year Tech Students, Fresh Graduates & Early Career Professionals</Typography>
     </Box>
     <Box sx={{display:'flex', flexDirection:{xs:'column', md:'row'}, placeItems:'center', mx:'auto', p:2}}>
       <CalendarMonthOutlinedIcon sx={{width:"80px", height:"80px", borderRadius:'100%', backgroundColor:'#e6e6e6', padding:{xs:'6%', md:'6%'}, mx:'1%'}}/>
