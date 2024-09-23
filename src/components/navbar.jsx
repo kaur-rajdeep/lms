@@ -39,7 +39,7 @@ function Navbar(props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center', padding: '16px 24px', fontFamily:'Roboto'}}>
+            <ListItemButton sx={{ textAlign: 'center', padding: '16px 24px', fontFamily:'Manrope'}}>
               <ListItemText primaryTypographyProps={{ fontSize: '16px' }} primary={item} />
             </ListItemButton>
           </ListItem>
@@ -81,7 +81,7 @@ function Navbar(props) {
           </Box>
           <Box sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#252525', textTransform: 'none', fontSize: '16px', marginLeft: '20px', fontFamily:'Roboto' }}>
+              <Button key={item} sx={{ color: '#252525', textTransform: 'none', fontSize: '16px', marginLeft: '20px', fontFamily:'Manrope' }}>
                 {item}
               </Button>
             ))}

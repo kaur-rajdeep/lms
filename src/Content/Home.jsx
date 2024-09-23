@@ -11,6 +11,8 @@ import { Why } from "./Why";
 import { CareerPath } from "./CareerPath";
 import { WhySec } from "./WhySec";
 import { PanaceaLegacy } from "./PanaceaLegacy";
+import { Footer } from "./Footer";
+import { ProgramDetails } from "./ProgramDetails";
 
 function Home() {
   return (
@@ -54,8 +56,10 @@ function Home() {
       <CareerPath/>
       <WhySec/>
       <PanaceaLegacy/>
+      <ProgramDetails/>
       <Reviews/>
       <Info />
+      <Footer/>
 
     </div>
   );
