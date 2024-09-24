@@ -6,25 +6,25 @@ const data = [
       id: 1,
       title: 'High Demand',
       content: 'With over 3.5 million cybersecurity jobs were unfilled in 2023*, the demand for specialised professionals is at an all-time high.',
-      image: 'https://via.placeholder.com/100',
+      image: './why/14.png',
     },
     {
       id: 2,
       title: 'Rapidly Growing Industry',
       content: 'With Digital Payments, Crypto, Blockchain, IoT and Quantum AI taking over, there’s a need to build a resilient digital ecosystem like never before.  ',
-      image: 'https://via.placeholder.com/100',
+      image: './why/15.png',
     },
     {
       id: 3,
       title: 'Career Progression',
       content: 'The field offers immense potential for advancement and to climb up the corporate ladder swifty, while ensuring a long-term career stability. ',
-      image: 'https://via.placeholder.com/100',
+      image: './why/16.png',
     },
     {
       id: 4,
       title: 'Lucrative Salary ',
       content: 'Security Analyst are amongst the top earners in the IT sector. Given the specialised skillset and the increasing demand, companies are offering competitive salaries. ',
-      image: 'https://via.placeholder.com/100',
+      image: './why/17.png',
     },
   ];
   
@@ -73,7 +73,7 @@ export const Why = () => {
           }}
         >
           {/* Image on the Left */}
-          <Box sx={{ width: '200px', height: '100px', marginRight: 2 }}>
+          <Box sx={{ width: '30%', marginRight: 2, padding:2 }}>
             <img
               src={item.image}
               alt={item.title}
@@ -81,7 +81,7 @@ export const Why = () => {
             />
           </Box>
           {/* Title and Content on the Right */}
-          <CardContent>
+          <CardContent sx={{width:'70%'}}>
             <Typography variant="h6" sx={{color:'#DA3D33', fontFamily:'Manrope', fontWeight:'600'}}>{item.title}</Typography>
             <Typography variant="body2" sx={{fontFamily:'Manrope'}}>{item.content}</Typography>
           </CardContent>

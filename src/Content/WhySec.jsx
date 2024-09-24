@@ -5,32 +5,32 @@ const data = [
     {
       id: 1,
       content: 'Founded by Panacea Infosec, a leading global cybersecurity firm',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/23.png',
     },
     {
       id: 2,
       content: 'We have 20+ years of industry expertise and legacy in information and data security',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/24.png',
     },
     {
       id: 3,
       content: 'You get hands-on training and work on real cases and data.',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/25.png',
     },
     {
       id: 4,
       content: 'Get trained by industry experts and mentored by senior leaders',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/26.png',
     },
     {
       id: 5,
       content: 'A curriculum with a high practice, instruction, and experience ratio ',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/27.png',
     },
     {
       id: 6,
       content: 'Top candidates gain access to placement opportunities with top companies from our client base',
-      image: 'https://via.placeholder.com/100',
+      image: './WhySec/28.png',
     },
   ];
   
@@ -78,7 +78,7 @@ export const WhySec = () => {
           }}
         >
           {/* Image on the Left */}
-          <Box sx={{ width: '200px', height: '100px', marginRight: 2 }}>
+          <Box sx={{ width: '100px', height: '100px', marginRight: 2 }}>
           <img
               src={item.image}
               alt={item.title}

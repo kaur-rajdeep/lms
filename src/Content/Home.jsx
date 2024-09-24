@@ -13,6 +13,10 @@ import { WhySec } from "./WhySec";
 import { PanaceaLegacy } from "./PanaceaLegacy";
 import { Footer } from "./Footer";
 import { ProgramDetails } from "./ProgramDetails";
+import TabsComponent from "./Tabs";
+import { ApplyNow } from "./ApplyNow";
+import IndustryExperts from "./IndustryExperts";
+import { MentorSpeak } from "./MentorSpeak";
 
 function Home() {
   return (
@@ -57,6 +61,10 @@ function Home() {
       <WhySec/>
       <PanaceaLegacy/>
       <ProgramDetails/>
+      <TabsComponent/>
+      <ApplyNow/>
+      <IndustryExperts/>
+      <MentorSpeak/>
       <Reviews/>
       <Info />
       <Footer/>

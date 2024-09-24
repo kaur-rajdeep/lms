@@ -6,56 +6,56 @@ const data = [
       id: 1,
       Title:'Months Program',
       content: '06',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/29.png',
       color:"#ffde59"
     },
     {
       id: 2,
       Title:'Core Modules',
       content: '07',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/30.png',
       color:'#d5b740'
     },
     {
       id: 3,
       Title:'Weeks Internship',
       content: '12',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/31.png',
       color:'#f09949'
     },
     {
       id: 4,
       Title:'Learning Hours',
       content: '100+',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/32.png',
       color:'#bcb5e7'
     },
     {
       id: 5,
       Title:'Program Starts',
       content: 'Jan 2025',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/33.png',
       color:'#bcb5e7'
     },
     {
       id: 6,
       Title:'Faculty and Industry',
       content: '10+',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/34.png',
       color:'#d0cdcd'
     },
     {
       id: 7,
       Title:'Hours of Mentorship Session',
       content: '20+',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/35.png',
       color:'#fcdd97'
     },
     {
       id: 8,
       Title:'Interview Opportunities',
       content: '3+',
-      image: 'https://via.placeholder.com/100',
+      image: './program_details/36.png',
       color:'#ffde59'
     },
   ];
@@ -106,7 +106,7 @@ export const ProgramDetails = () => {
           }}
         >
           {/* Image on the Left */}
-          <Box sx={{ width: '50px', height: '50px'}}>
+          <Box sx={{ width: '60px', height: '60px'}}>
           <img
               src={item.image}
               alt={item.Title}

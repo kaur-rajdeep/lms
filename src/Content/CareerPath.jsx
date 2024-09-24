@@ -4,7 +4,8 @@ import { Box, Card, Typography } from '@mui/material';
 // Mock data representing each career stage
 const careerStages = [
   {
-    id: 1,
+    id: '01',
+    image:'./career/18.png',
     title: 'Security Analyst/Engineer',
     description: 'Mastering and applying general security principles',
     salary: '4-6 LPA',
@@ -12,7 +13,8 @@ const careerStages = [
     icon: '', // Add path to icon if needed
   },
   {
-    id: 2,
+    id: '02',
+    image:'./career/19.png',
     title: 'Security Consultant I',
     description: 'Provide expert advice on an organization’s security posture, strategies and Solutions',
     salary: '6-12 LPA',
@@ -20,7 +22,8 @@ const careerStages = [
     icon: '', // Add path to icon if needed
   },
   {
-    id: 3,
+    id: '03',
+    image:'./career/20.png',
     title: 'Security Consultant II',
     description: 'Provide expert advice on an organization’s security posture, strategies and Solutions',
     salary: '12-30 LPA',
@@ -28,7 +31,8 @@ const careerStages = [
     icon: '', // Add path to icon if needed
   },
   {
-    id: 4,
+    id: '04',
+    image:'./career/21.png',
     title: 'Senior Security Consultant',
     description: 'Lead threat intelligence teams, pen tests, and incident response teams',
     salary: '30-40 LPA',
@@ -36,7 +40,8 @@ const careerStages = [
     icon: '', // Add path to icon if needed
   },
   {
-    id: 5,
+    id: '05',
+    image:'./career/22.png',
     title: 'Chief Information Security Officer',
     description: 'Leading and protecting information resources and technologies, developing, implementing and enforcing security policies',
     salary: '40+ LPA',
@@ -47,8 +52,10 @@ const careerStages = [
 
 
 export const CareerPath = () => {
-        const baseHeight = 200;
+        const baseHeight = 300;
         const heightIncrement = 50;
+        const baseOpacity = 50;
+        const opacityIncrement = 10;
   return (
     <Box sx={{display:'Grid', placeItems:'center'}}>
 
@@ -68,14 +75,14 @@ export const CareerPath = () => {
     >
       {/* Vertical Arrow Label */}
       <Typography
-        variant="h6"
+        variant="h5"
         sx={{
           writingMode: 'vertical-rl',
           transform: 'rotate(180deg)',
           position: 'absolute',
           left: '-50px',
-          top: '50%',
-          color: 'red',
+          top: ' 55%',
+          color: '#da3d33',
           fontWeight: 'bold',
         }}
       >
@@ -86,7 +93,7 @@ export const CareerPath = () => {
       {careerStages.map((stage, index) => (
         <Card
           key={stage.id}
-          sx={{
+         sx={{
             padding: 2,
             borderLeft: `4px solid black`,
             width: '200px',
@@ -113,8 +120,28 @@ export const CareerPath = () => {
                 color: '#fff',
               }}
             >
-              {stage.id}
-            </Box>
+              {stage.id}         
+              </Box>
+              <Box sx={{ width: '100px',
+    height: '70px',
+    position: 'relative',
+    color: 'white',
+    textAlign: 'center',
+    lineHeight: '100px',
+    fontSize: '20px',
+                 backgroundColor:'#da3d33', opacity:`${baseOpacity+index*opacityIncrement}%`
+        }}>
+          <div style={{content: "''",
+    position: 'absolute',
+    right: '-50px',
+    top: '0',
+    width: '0',
+    height: '0',
+    borderTop: '31px solid transparent',
+    borderBottom: '40px solid transparent',
+    borderLeft: '50px solid #da3d33'}}></div>
+          <img src={stage.image} alt="image" height='50' />
+        </Box>
             <Typography variant="h6" sx={{ fontSize: '14px' }}>
               {stage.title}
             </Typography>
@@ -131,6 +158,28 @@ export const CareerPath = () => {
         </Card>
       ))}
     </Box>
+    <Box sx={{ width: '80%',
+    height: '80px',
+   background: 'linear-gradient(90deg, #f38787 0%, #da3d33 100%)',
+    position: 'relative',
+    color: 'white',
+    textAlign: 'center',
+    lineHeight: '100px',
+    fontSize: '20px',}}>
+      <Box sx={{content: "''",
+    position: 'absolute',
+    right: '-50px',
+    marginTop:'-18px',
+    top: '0',
+    width: '0',
+    height: '0',
+    borderTop: '60px solid transparent',
+    borderBottom: '60px solid transparent',
+    borderLeft: '60px solid #da3d33',}}>
+
+      </Box>
+    </Box>
+
     </Box>
   )
 }

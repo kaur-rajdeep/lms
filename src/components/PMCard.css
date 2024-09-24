@@ -1,0 +1,62 @@
+.card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width:36rem; /* Rounded borders */
+    
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .module-info {
+    width:70%;
+  }
+  
+  .topic-time-container {
+
+    display: flex;
+    margin-top: -0.7em;
+  }
+
+  .learningStyles{
+    font-size: 14px;
+    color:#626161;
+    scroll-padding: 12px;
+  }
+  
+  .topic-value,
+  .time-value {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #DA3d33;
+    padding: 5px 20px;
+    margin-right:1rem;
+    border-radius: 25px;
+
+  }
+
+  .title{
+    margin-top: -0.2em;
+    margin-bottom: 1em;
+  }
+
+  .divider{
+    border:2px solid #DA3d33;
+    border-radius: 5px;
+    margin-top: -0.7em;
+  }

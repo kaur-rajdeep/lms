@@ -84,6 +84,16 @@ export const EnrollToday = () => {
             backgroundColor: "white",
           }}
         >
+          <img
+            src="2.png"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "5px",
+            }}
+            alt="image"
+          />
           <Typography
             variant="body1"
             sx={{
@@ -95,16 +105,7 @@ export const EnrollToday = () => {
           >
             Future Ethical Technology Advisor
           </Typography>
-          <img
-            src="2.png"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              borderRadius: "5px",
-            }}
-            alt="image"
-          />
+          
         </Box>
         <Box
           sx={{
