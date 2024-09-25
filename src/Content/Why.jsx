@@ -65,15 +65,20 @@ export const Why = () => {
             alignItems:'center',
             border: '1px solid #ddd',
             borderRadius: '10px',
-            boxShadow:'0px 5px 0px black',
             width: '500px', 
             height:'150px',
             padding:2,
+            margin:1,
             boxSizing: 'border-box',
+            transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.07)',
+boxShadow: '-9px -9px 18px #f2f2f2, 9px 9px 18px #f2f2f2',
+              },
           }}
         >
           {/* Image on the Left */}
-          <Box sx={{ width: '30%', marginRight: 2, padding:2 }}>
+          <Box sx={{ width: '25%', marginRight: 2, padding:1 }}>
             <img
               src={item.image}
               alt={item.title}

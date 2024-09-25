@@ -17,6 +17,7 @@ import TabsComponent from "./Tabs";
 import { ApplyNow } from "./ApplyNow";
 import IndustryExperts from "./IndustryExperts";
 import { MentorSpeak } from "./MentorSpeak";
+import Faq from "../components/Faq";
 
 function Home() {
   return (
@@ -67,6 +68,7 @@ function Home() {
       <MentorSpeak/>
       <Reviews/>
       <Info />
+      <Faq/>
       <Footer/>
 
     </div>

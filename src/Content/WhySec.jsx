@@ -56,8 +56,8 @@ export const WhySec = () => {
       sx={{
         display: 'grid',
         gridTemplateColumns: { xs: '1fr', sm: 'repeat(3, 1fr)' }, // One column on small screens, two columns on larger screens
-        rowGap: 2,
-        columnGap:2,
+        rowGap: 4,
+        columnGap:4,
         placeItems:'center'
       }}
     >
@@ -75,6 +75,11 @@ export const WhySec = () => {
             height:'250px',
             padding:4,
             boxSizing: 'border-box',
+            transition: 'transform 0.3s ease-in-out',
+            '&:hover': {
+              transform: 'scale(1.09)',
+boxShadow: '-9px -9px 18px #f2f2f2, 9px 9px 18px #f2f2f2',
+            },  
           }}
         >
           {/* Image on the Left */}

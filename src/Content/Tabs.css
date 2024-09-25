@@ -3,6 +3,7 @@
     margin-top: 5rem;
     display: grid;
     place-items: center;
+    
   }
   
   .tabs {
@@ -13,7 +14,7 @@
   .tab {
     padding: 15px 40px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 30px;
     background-color: #ddd9f5;
     border-radius: 5px;
     font-weight: 500;

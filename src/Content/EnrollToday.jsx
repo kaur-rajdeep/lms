@@ -49,6 +49,10 @@ export const EnrollToday = () => {
             width: "485px",
             height: "135px",
             backgroundColor: "white",
+            transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },
           }}
         >
           <Typography
@@ -82,6 +86,10 @@ export const EnrollToday = () => {
             width: "485px",
             height: "135px",
             backgroundColor: "white",
+            transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },
           }}
         >
           <img
@@ -116,6 +124,10 @@ export const EnrollToday = () => {
             width: "485px",
             height: "135px",
             backgroundColor: "white",
+            transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },
           }}
         >
           <Typography
@@ -143,19 +155,34 @@ export const EnrollToday = () => {
       
       </Box>
       <Box sx={{backgroundColor:'#DA3d33'}}>
-        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px'}}>
+        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px', transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },}}>
             <Typography sx={{}}>You are a fresh or final year engineering or computer application graduate looking for a break in Information Security and Cyber security Industry.</Typography>
         </Box>
-        <Box sx={{backgroundColor:'#22242c', padding:'2%', margin:'2%', borderRadius:'20px'}}>
+        <Box sx={{backgroundColor:'#22242c', padding:'2%', margin:'2%', borderRadius:'20px',transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },}}>
             <Typography sx={{color:'white'}}>You want to be a future Chief Information Security Officer (CISO), Security Consultant or Ethical Hacking Technology Advisor.</Typography>
         </Box>
-        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px'}}>
+        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px',transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },}}>
             <Typography sx={{}}>You have strong inclination towards future technologies in Information & Network and cybersecurity space.</Typography>
         </Box>
-        <Box sx={{backgroundColor:'#22242c', padding:'2%', margin:'2%', borderRadius:'20px'}}>
+        <Box sx={{backgroundColor:'#22242c', padding:'2%', margin:'2%', borderRadius:'20px', transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },}}>
             <Typography sx={{color:'white'}}>you have a strong longing to enhance your professional status and capabilities or to venture into a different field</Typography>
         </Box>
-        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px'}}>
+        <Box sx={{backgroundColor:'white', padding:'2%', margin:'2%', borderRadius:'20px', transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)'
+              },}}>
             <Typography sx={{}}>You seek a program with guaranteed internship & job assistance with intensive but flexible hybrid learning options.</Typography>
         </Box>
     </Box>

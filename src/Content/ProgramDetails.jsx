@@ -82,8 +82,8 @@ export const ProgramDetails = () => {
       sx={{
         display: 'grid',
         gridTemplateColumns: { xs: '2fr', sm: 'repeat(4, 1fr)' }, // One column on small screens, two columns on larger screens
-        rowGap: 2,
-        columnGap:2,
+        rowGap: 4,
+        columnGap:4,
         placeItems:'center'
       }}
     >
@@ -102,7 +102,12 @@ export const ProgramDetails = () => {
             padding:2,
             boxSizing: 'border-box',
             borderBottom:`6px solid ${item.color}`,
-            backgroundColor:'#f8f4f4'
+            backgroundColor:'#f8f4f4',
+            transition: 'transform 0.3s ease-in-out',
+              '&:hover': {
+                transform: 'scale(1.09)',
+boxShadow: '-9px -9px 18px #f2f2f2, 9px 9px 18px #f2f2f2',
+              },
           }}
         >
           {/* Image on the Left */}

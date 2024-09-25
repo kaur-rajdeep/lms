@@ -12,10 +12,20 @@ export const Footer = () => {
         </Box>
         </Box>
         <Box sx={{paddingX:12, paddingTop:6, display:'flex', flexDirection:'column', placeItems:'left', marginLeft:12}}>
-            <Typography sx={{fontFamily:'Manrope', fontSize:'20px', fontWeight:600}}>Address</Typography>
-            <Typography sx={{fontFamily:'Manrope', fontSize:'16px'}}>Dwarka</Typography>
-            <Typography sx={{fontFamily:'Manrope', fontSize:'20px', fontWeight:600, marginTop:4}}>Phone</Typography>
-            <Typography sx={{fontFamily:'Manrope', fontSize:'16px'}}>18005709907</Typography>
+          <Box sx={{display:'flex'}}>
+          <img src="41.png" alt="location" width='30px' height='30px'/>
+          <Box>
+            <Typography sx={{fontFamily:'Manrope', fontSize:'20px', fontWeight:600, marginLeft:'12px'}}>Address</Typography>
+            <Typography sx={{fontFamily:'Manrope', fontSize:'16px', marginLeft:'12px'}}>Dwarka</Typography>
+          </Box>
+          </Box>
+          <Box sx={{display:'flex', marginTop:4}}>
+          <img src="41.png" alt="location" width='30px' height='30px'/>
+          <Box>
+            <Typography sx={{fontFamily:'Manrope', fontSize:'20px', fontWeight:600, marginLeft:'12px'}}>Phone</Typography>
+            <Typography sx={{fontFamily:'Manrope', fontSize:'16px', marginLeft:'12px'}}>18005709907</Typography>
+          </Box>
+          </Box>
         </Box>
 
     </Box>
