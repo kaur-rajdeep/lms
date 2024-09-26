@@ -8,7 +8,7 @@ export const Intro = () => {
             POST GRADUATE<br/> CERTIFICATE PROGRAM <br/>IN PAYMENT SECURITY
         </Typography>
         <Typography variant='body1' sx={{fontSize:{xs:'16px', md:'18px'}, wordSpacing:'2px', lineHeight:{xs:'20px', md:'30px'}, fontFamily:'Manrope', mt:2}}>
-            From cybersecurity enthusiast to certified auditor - launch your journey with Sectheta
+            From cybersecurity enthusiast to certified auditor - launch your journey with Sectheta.
         </Typography>
         <Typography variant='body1' sx={{fontSize:{xs:'16px', md:'16px'}, fontFamily:'Manrope', mt:2}}>
             <ul>
