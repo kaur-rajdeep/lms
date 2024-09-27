@@ -4,10 +4,10 @@ import './TabContentCard.css'
 const HexagonGridItem = ({ backgroundImage, title, description }) => (
     
       <div className="hexagon" style={{ backgroundColor: '#11181a'}}>
-            <img src={backgroundImage} style={{margin:'-10px -20px', height:'40%'}}/>
-          <span style={{height:'60%'}}>
-            <h4>{title}</h4>
-            <p style={{ padding: '20px 40px', fontSize:'12px' }}>{description}</p>
+            <img class="shrinkImage" src={backgroundImage} style={{margin:'-10px -20px', objectFit:'cover'}}/>
+          <span class="detailExpand" style={{height:'60%'}}>
+            <h4 style={{marginTop:'12%'}}>{title}</h4>
+            <p style={{ padding: '20px 40px', paddingBottom:'60px', fontSize:'12px', marginTop:'-8%' }}>{description}</p>
           </span>
       </div>
     
