@@ -1,0 +1,59 @@
+
+/* Container for the hexagon shape */
+.hexagon {
+    position: relative;
+    width: 300px; /* Adjust the width as per your design */
+    height: 346px; /* Adjust height to maintain the hexagonal ratio */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+ .hexagon h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+  }
+  
+  .hexagon p {
+    margin-top: -14px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  
+  .hexagon:hover h4 {
+    color: #00cda2; 
+  }
+  
+
+  .hexagon h4::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #00cda2;
+    margin: 10px auto 0;
+    opacity: 1;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .hexagon:hover h4::after {
+    width: 140px;
+    opacity: 1; 
+    transform: scale(1.01);
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 2px;
+    align-items: center;
+    justify-content: center;
+  }

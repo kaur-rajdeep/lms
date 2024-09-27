@@ -1,0 +1,889 @@
+
+.mt-3 {
+    margin: 60px auto 20px auto;
+    margin: 1 auto 1.25rem auto;
+    position: relative
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 {
+        height:380px;
+        height: 23.75rem;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3.m_nextgen,.mt-3.m_nextgen .open_miniwheel {
+        height:2900px
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3.m_data,.mt-3.m_data .open_miniwheel {
+        height:1790px
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3.m_finance,.mt-3.m_finance .open_miniwheel {
+        height:2130px
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3.m_innovation,.mt-3.m_innovation .open_miniwheel {
+        height:1855px
+    }
+}
+
+.mt-3 .wheel-closed-wrapper,.mt-3 .wheel-open-wrapper {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0
+}
+
+.mt-3 .wheel-closed-wrapper.close_bigwheel,.mt-3 .wheel-open-wrapper {
+    opacity: 0;
+    z-index: 0
+}
+
+.mt-3 .wheel-open-wrapper {
+    -webkit-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-open-wrapper {
+        margin:0
+    }
+}
+
+.mt-3 .wheel-closed-wrapper.close_bigwheel {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.mt-3 .wheel-closed-wrapper.close_bigwheel {
+    height: 0
+}
+
+.mt-3 .wheel-closed-wrapper,.mt-3 .wheel-open-wrapper.open_miniwheel {
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-open-wrapper.open_miniwheel {
+        padding-bottom:30px;
+        padding-bottom: 1.875rem;
+        background: #11181a
+    }
+}
+
+.mt-3 .row.wheel-open-wrapper .spin-fade {
+    position: absolute;
+    height: 0
+}
+
+.mt-3 .row.wheel-open-wrapper .spin-fade .tab-content {
+    height: 0;
+    overflow: hidden
+}
+
+.mt-3 .row.wheel-open-wrapper>div {
+    position: relative
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .row.wheel-open-wrapper>div {
+        margin:0 0px
+    }
+}
+
+.mt-3 ul.big-wheel-m {
+    position: relative;
+    height: 680px;
+    width: 680px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    text-align: center
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 ul.big-wheel-m {
+        transform:scale(0.502);
+        transform-origin: 3px 0
+    }
+}
+
+.mt-3 li.bw-wheelbase_bg {
+    position: absolute;
+    left: 1.34%;
+    right: 1.34%;
+    top: 1.34%;
+    bottom: 1.34%
+}
+
+.mt-3 li.bw-sdgwheel {
+    position: absolute;
+    left: 36.11%;
+    right: 36.11%;
+    top: 36.11%;
+    bottom: 36.11%
+}
+
+.mt-3 li.bw-nextgen {
+    position: absolute;
+    left: 32.16%;
+    right: 3.18%;
+    top: 0%;
+    bottom: 53.24%
+}
+
+.mt-3 li.bw-data {
+    position: absolute;
+    left: 53.24%;
+    right: 0%;
+    top: 32.41%;
+    bottom: 3.22%
+}
+
+.mt-3 li.bw-finance {
+    position: absolute;
+    left: 3.22%;
+    right: 32.3%;
+    top: 53.24%;
+    bottom: 0%
+}
+
+.mt-3 li.bw-innovation {
+    position: absolute;
+    left: 0%;
+    right: 53.23%;
+    top: 3.28%;
+    bottom: 32.31%
+}
+
+.mt-3 ul.big-wheel-m li a {
+    display: block
+}
+
+.mt-3 ul.big-wheel-m li a .bw-tab,.mt-3 ul.big-wheel-m li a #icon_shape {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.mt-3 ul.big-wheel-m li a:hover .bw-tab,.mt-3 ul.big-wheel-m li a:hover #icon_shape {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+.mt-3 .wheel-m {
+    position: relative;
+    height: 340px;
+    width: 340px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-m {
+        display:-webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 100px;
+        overflow: hidden;
+        -moz-transform: rotate(0deg) !important;
+        -o-transform: rotate(0deg) !important;
+        -ms-transform: rotate(0deg) !important;
+        -webkit-transform: rotate(0deg) !important;
+        transform: rotate(0deg) !important
+    }
+}
+
+.mt-3 .wheel-m>li {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-m>li {
+        position:relative;
+        top: 0;
+        left: 0;
+        width: 100px;
+        overflow: hidden
+    }
+}
+
+.mt-3 .wheel-m a {
+    display: block
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-m a {
+        position:relative;
+        height: 100px
+    }
+}
+
+.mt-3 .wheelbase_bg {
+    position: absolute;
+    left: 0%;
+    top: 0%
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheelbase_bg {
+        display:none !important
+    }
+}
+
+.mt-3 .sdgwheel {
+    position: absolute;
+    left: 36.51%;
+    top: 36.6%
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .sdgwheel {
+        display:none !important
+    }
+}
+
+.mt-3 .nextgen {
+    position: absolute;
+    left: 33.04%;
+    top: 3.29%
+}
+
+.mt-3 .data {
+    position: absolute;
+    left: 56.48%;
+    top: 33.31%
+}
+
+.mt-3 .finance {
+    position: absolute;
+    left: 6.73%;
+    top: 56.58%
+}
+
+.mt-3 .innovation {
+    position: absolute;
+    left: 3.03%;
+    top: 6.82%
+}
+
+.mt-3 .wheel-m a path.tab-sec {
+    opacity: 0.5;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-m a path.tab-sec {
+        opacity:0
+    }
+}
+
+.mt-3 .s_nextgen .nextgen a path.tab-sec,.mt-3 .s_finance .finance a path.tab-sec,.mt-3 .s_innovation .innovation a path.tab-sec,.mt-3 .s_data .data a path.tab-sec,.mt-3 .wheel-m a:hover path.tab-sec {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+.mt-3 li a svg {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+.mt-3 .wheel-m a svg {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .wheel-m a svg {
+        position:absolute;
+        top: 0;
+        left: 0
+    }
+}
+
+.mt-3 .s_nextgen .nextgen a svg {
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    moz-transform-origin: 0px 150px;
+    -o-transform-origin: 0px 150px;
+    -ms-transform-origin: 0px 150px;
+    -webkit-transform-origin: 0px 150px;
+    transform-origin: 0px 150px
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .s_nextgen .nextgen a svg {
+        left:-42px;
+        top: 8px
+    }
+}
+
+.mt-3 .s_finance .finance a svg {
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    moz-transform-origin: 220px 4px;
+    -o-transform-origin: 220px 4px;
+    -ms-transform-origin: 220px 4px;
+    -webkit-transform-origin: 220px 4px;
+    transform-origin: 220px 4px
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .s_finance .finance a svg {
+        left:-78px;
+        top: -46px
+    }
+}
+
+.mt-3 .s_innovation .innovation a svg {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transform-origin: 150px 180px;
+    -ms-transform-origin: 150px 180px;
+    transform-origin: 150px 180px
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .s_innovation .innovation a svg {
+        left:1px;
+        top: -73px
+    }
+}
+
+.mt-3 .s_data .data a svg {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transform-origin: 0px 30px;
+    -ms-transform-origin: 0px 30px;
+    transform-origin: 0px 30px
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .s_data .data a svg {
+        left:-48px;
+        top: -21px
+    }
+}
+
+.mt-3 ul.wheel-m.s_nextgen {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+.mt-3 ul.wheel-m.s_data {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+.mt-3 ul.wheel-m.s_finance {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.mt-3 ul.wheel-m.s_innovation {
+    -webkit-transform: rotate(-270deg);
+    -ms-transform: rotate(-270deg);
+    transform: rotate(-270deg)
+}
+
+.mt-3 ul.wheel-m g#icon {
+    opacity: 0.7;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transform-box: fill-box;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 ul.wheel-m g#icon {
+        -moz-transform:rotate(0deg) scale(0.9) !important;
+        -o-transform: rotate(0deg) scale(0.9) !important;
+        -ms-transform: rotate(0deg) scale(0.9) !important;
+        -webkit-transform: rotate(0deg) scale(0.9) !important;
+        transform: rotate(0deg) scale(0.9) !important;
+        opacity: 1
+    }
+}
+
+.mt-3 ul.wheel-m li.active a g#icon {
+    opacity: 1
+}
+
+.mt-3 .s_nextgen .nextgen a g#icon,.mt-3 .s_finance .finance a g#icon,.mt-3 .s_innovation .innovation a g#icon,.mt-3 .s_data .data a g#icon {
+    opacity: 1
+}
+
+.mt-3 ul.wheel-m li a:hover g#icon {
+    opacity: 1
+}
+
+.mt-3 ul.wheel-m.s_data g#icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.mt-3 ul.wheel-m.s_finance g#icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.mt-3 ul.wheel-m.s_finance #nextgen g#icon {
+    -webkit-transform-origin: 38% 51%;
+    -ms-transform-origin: 38% 51%;
+    transform-origin: 38% 51%
+}
+
+.mt-3 ul.wheel-m.s_innovation g#icon {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg)
+}
+
+.mt-3 ul.wheel-m.s_innovation #nextgen g#icon {
+    -webkit-transform-origin: 37% 64%;
+    -ms-transform-origin: 37% 64%;
+    transform-origin: 37% 64%
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .nextgen a svg {
+        left:-35px;
+        background: #c71f1f
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .data a svg {
+        background:#0b966d;
+        left: -45px;
+        top: -19px
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .finance a svg {
+        background:#e4b626;
+        left: -84px;
+        top: -37px
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .innovation a svg {
+        background:#00559e;
+        left: -7px;
+        top: -76px
+    }
+}
+
+.mt-3 .tab-content {
+    position: relative;
+    width: calc(100% - 130px);
+    background: #ffffff;
+    z-index: 0;
+    left: 130px;
+    -webkit-border-radius: 60px 0 0 0px;
+    border-radius: 60px 0 0 0px;
+    background-clip: padding-box;
+    padding-bottom: 60px;
+    padding-bottom: 3.75rem
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .tab-content {
+        width:100%;
+        left: 0;
+        border-radius: 0
+    }
+}
+
+.mt-3 .tab-content h1 {
+    font-family: 'proxima_novabold',Arial,Helvetica,sans-serif;
+    padding: 45px 30px 31px 20px;
+    padding: 2.8125rem 1.875rem 1.9375rem 1.25rem;
+    font-size: 25px;
+    font-size: 1.5625rem;
+    letter-spacing: .5px;
+    letter-spacing: .03125rem;
+    font-style: normal;
+    text-align: center;
+    border-bottom: 2px solid #787676;
+    margin-top: 0;
+    overflow: hidden;
+    text-transform: uppercase
+}
+
+.mt-3 .tab-content .items-section {
+    margin-top: 40px;
+    margin-top: 2.5rem;
+    padding-bottom: 110px;
+    padding-bottom: 6.875rem
+}
+
+.mt-3 .tab-content .items-section h1 {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    padding: 0;
+    border: 0
+}
+
+.mt-3 .tab-content .items-section h1:after {
+    margin: 10px auto 25px auto;
+    margin: .625rem auto 1.5625rem auto;
+    width: 100px;
+    width: 6.25rem;
+    height: 2px;
+    height: .125rem;
+    content: " ";
+    display: block;
+    background: #0569B1
+}
+
+.mt-3 .tab-content .items-section  {
+    margin-bottom: 70px;
+    margin-bottom: 4.375rem
+}
+
+.mt-3 .btnclose {
+    font-size: 2.1875rem;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    color: #242F35;
+    padding:2px;
+    margin-right: 20px;
+    text-decoration: none
+}
+
+.mt-3 .btnclose:hover {
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    color: #394a53;
+    text-decoration: none
+}
+
+.mt-3 .intro-sec {
+    text-align: center;
+    padding: 15px 30px;
+    padding: .9375rem 1.875rem;
+    max-width: 600px;
+    max-width: 37.5rem;
+    font-size: 16px;
+    font-size: 1rem;
+    margin: 0 auto
+}
+
+.mt-3 .open_miniwheel .tab-content .active:before {
+    content: " ";
+    display: block;
+    height: 100%;
+    width: 330%;
+    position: absolute;
+    background: #11181A;
+    background: linear-gradient(55deg,rgba(17,24,26,0) 19%,#11181A 30%);
+    animation-name: fade-mask;
+    animation-duration: 1.5s;
+    right: 0;
+    bottom: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    z-index: 1
+}
+
+.mt-3 div#tc_innovation h1 {
+    border-color: #1372BA
+}
+
+.mt-3 div#tc_nextgen h1 {
+    border-color: #E6433D
+}
+
+.mt-3 div#tc_data h1 {
+    border-color: #009591
+}
+
+.mt-3 div#tc_finance h1 {
+    border-color: #FFD444
+}
+
+.mt-3 .close_bigwheel ul {
+    -webkit-animation-name: bigwheelclose;
+    animation-name: bigwheelclose;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.mt-3 .close_bigwheel ul a {
+    pointer-events: none
+}
+
+.mt-3 .m-wheel-wrapper {
+    transform-box: fill-box;
+    transform-origin: center;
+    width: 340px;
+    position: absolute;
+    z-index: 1
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .m-wheel-wrapper {
+        position:relative
+    }
+}
+
+.mt-3 .open_miniwheel .m-wheel-wrapper {
+    -webkit-animation-name: miniwheelopen;
+    animation-name: miniwheelopen;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+.mt-3 .wheel-closed-wrapper.spin-fade-in ul {
+    -webkit-animation-name: spinfadein;
+    animation-name: spinfadein;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards
+}
+
+.mt-3 .wheel-open-wrapper .tab-pane {
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    max-height: 1000px
+}
+
+.mt-3 .wheel-open-wrapper.spin-fade {
+    height: 0;
+    position: absolute
+}
+
+.mt-3 .wheel-open-wrapper.spin-fade .m-wheel-wrapper {
+    -webkit-animation-name: spin-fade;
+    animation-name: spin-fade;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards
+}
+
+.mt-3 .wheel-open-wrapper.spin-fade .tab-content {
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    opacity: 0;
+    border-radius: 0
+}
+
+.mt-3 .wheel-open-wrapper.spin-fade .tab-content .tab-pane.active.in {
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    max-height: 0px;
+    overflow: hidden
+}
+
+.mt-3 .open_miniwheel .tab-content {
+    animation-name: tabcontent;
+    animation-duration: 1.5s;
+    overflow: hidden
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mt-3 .open_miniwheel .tab-content {
+        overflow:visible;
+        height: 100%;
+        height: fit-content
+    }
+}
+
+@-webkit-keyframes bigwheelclose {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg) scale(0.2);
+        transform: rotate(360deg) scale(0.2)
+    }
+}
+
+@keyframes bigwheelclose {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        pointer-events: auto
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg) scale(0.2);
+        transform: rotate(360deg) scale(0.2);
+        pointer-events: none
+    }
+}
+
+@-webkit-keyframes miniwheelopen {
+    0% {
+        -webkit-transform: rotate(360deg) scale(0.5);
+        transform: rotate(360deg) scale(0.5);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes miniwheelopen {
+    0% {
+        -webkit-transform: rotate(360deg) scale(0.5);
+        transform: rotate(360deg) scale(0.5);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes spinfadein {
+    0% {
+        transform: rotate(0deg) scale(0.2)
+    }
+
+    35% {
+        transform: rotate(0deg) scale(0.2)
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+        pointer-events: auto
+    }
+}
+
+@keyframes spin-fade {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+
+    35% {
+        transform: rotate(0deg) scale(1);
+        opacity: 0.8
+    }
+
+    100% {
+        transform: rotate(360deg) scale(0.2);
+        opacity: 0
+    }
+}
+
+@keyframes tabcontent {
+    0% {
+        opacity: 0
+    }
+
+    75% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade-mask {
+    0% {
+        opacity: 1;
+        width: 330%;
+        right: 0px
+    }
+
+    60% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        right: -1110px;
+        width: 100%
+    }
+}

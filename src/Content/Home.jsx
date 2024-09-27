@@ -18,6 +18,7 @@ import { ApplyNow } from "./ApplyNow";
 import IndustryExperts from "./IndustryExperts";
 import { MentorSpeak } from "./MentorSpeak";
 import Faq from "../components/Faq";
+import { Sdgwheel } from "./sdgwheel";
 
 function Home() {
   return (
@@ -62,7 +63,9 @@ function Home() {
       <WhySec/>
       <PanaceaLegacy/>
       <ProgramDetails/>
-      <TabsComponent/>
+      <Box id="close">
+      <Sdgwheel />
+      </Box>
       <ApplyNow/>
       <IndustryExperts/>
       <MentorSpeak/>

@@ -43,7 +43,7 @@ const TabsComponent = () => {
 
   return (
     <div className="tabs-component">
-      <div className="tabs">
+      <div className="tabs" id="close">
         <Box sx={{transition: 'transform 0.3s ease-in-out',
         '&:hover': {
           transform: 'scale(1.09)'

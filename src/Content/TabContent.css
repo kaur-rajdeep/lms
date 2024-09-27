@@ -1,0 +1,40 @@
+
+.tab-content>.tab-pane {
+    display: none
+}
+
+.tab-content>.active {
+    display: block
+}
+
+.tabs-left>.tab-content,.tabs-right>.tab-content {
+    padding: 20px
+}
+
+.html .tabs-left .nav-tabs .active>a {
+    border-right-color: #efefef
+}
+
+.glazed-boxed-container .tabs-left .nav-tabs .active>a {
+    border-right-color: white
+}
+
+.html .tabs-right .nav-tabs .active>a {
+    border-left-color: #efefef
+}
+
+
+.mt-3 .intro-sec {
+    text-align: center;
+    padding: 15px 30px;
+    padding: .9375rem 1.875rem;
+    max-width: 600px;
+    max-width: 37.5rem;
+    font-size: 16px;
+    font-size: 1rem;
+    margin: 0 auto
+}
+
+
+  
+ 
