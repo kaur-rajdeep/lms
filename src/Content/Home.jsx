@@ -63,7 +63,7 @@ function Home() {
       <WhySec/>
       <PanaceaLegacy/>
       <ProgramDetails/>
-      <Box id="close">
+      <Box sx={{marginTop:'2%'}}>
       <Sdgwheel />
       </Box>
       <ApplyNow/>
